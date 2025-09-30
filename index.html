@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Haseeb Javed — Web Developer Portfolio. Modern UI, GSAP animations, responsive design, and selected projects.">
+  <title>Haseeb Javed — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="icon"
+    href='data:image/svg+xml'><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'></text> </svg>"> -->
+  <meta name="theme-color" content="#0b0d10">
+</head>
+
+<body>
+  <!-- Canvas Background -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- Page Wrapper for smooth scroll -->
+  <div id="app">
+    <header class="site-header">
+      <a class="brand" href="#hero" aria-label="Home">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Haseeb</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" aria-label="Open Menu" aria-expanded="false">☰</button>
+        <ul class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="hero" class="section hero" aria-label="Intro">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            <span class="hero__hi">Hi, I’m</span>
+            <span class="hero__name">Haseeb Javed</span>
+          </h1>
+          <p class="hero__subtitle">Web Developer • Frontend & Emerging Full‑Stack</p>
+          <p class="hero__lead">I build smooth, modern web experiences with clean code and delightful motion.</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="#contact">Contact Me</a>
+            <a class="btn btn--ghost btn--download" href="./Haseeb-Javed-CV.pdf" download>Download CV</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section about" aria-label="About Me">
+        <div class="container">
+          <h2 class="section__title">About Me</h2>
+          <p class="about__text">
+            I’m a passionate web developer who loves turning ideas into clean, functional, and user-friendly digital
+            experiences. My core strength lies in web development, where I enjoy working with modern tools and crafting
+            projects that not only work well but also feel smooth to use. Alongside coding, I’ve started exploring the
+            fascinating world of Artificial Intelligence — from Generative AI to the basics of Narrow AI, Large Language
+            Models, and even a touch of ML/DL concepts. While I’m still at the beginning of this journey, it excites me
+            to think about how AI can enhance the way we build applications. Currently, I’m diving deeper into backend
+            development to strengthen my full-stack skills and create more complete, powerful solutions.
+          </p>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section skills" aria-label="Skills">
+        <div class="container">
+          <h2 class="section__title">Skills</h2>
+          <div class="skills__marquee" aria-label="Skills Marquee">
+            <div class="marquee__track">
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">TypeScript</span>
+              <span class="skill">React.js</span>
+              <span class="skill">Next.js</span>
+              <span class="skill">GSAP</span>
+              <span class="skill">Three.js</span>
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">TypeScript</span>
+              <span class="skill">React.js</span>
+              <span class="skill">Next.js</span>
+              <span class="skill">GSAP</span>
+              <span class="skill">Three.js</span>
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">TypeScript</span>
+              <span class="skill">React.js</span>
+              <span class="skill">Next.js</span>
+              <span class="skill">GSAP</span>
+              <span class="skill">Three.js</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects" aria-label="Projects">
+        <div class="container">
+          <h2 class="section__title">Projects</h2>
+          <div class="projects__grid">
+            <!-- Project 1 -->
+            <article class="project">
+              <div class="project__media">
+                <img src="./Assets/Audira-website.png" alt="Audira Headphone Website preview" loading="lazy">
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">HeadPhone Website</h3>
+                <p class="project__desc">A modern, animated premium headphones brand site with smooth GSAP scroll
+                  effects.</p>
+                <div class="project__links">
+                  <a class="btn btn--sm linearbtn " target="_blank" rel="noopener"
+                    href="https://haseebjaved4212.github.io/Audira-Headphone-Brand-Website-/">See It In Action </a>
+                  <a class="btn btn--sm btn--ghost" target="_blank" rel="noopener"
+                    href="https://github.com/haseebjaved4212/Audira-Headphone-Brand-Website-.git">Inspect Code</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project">
+              <div class="project__media">
+                <img src="./Assets/E-commerce-store.png" alt="E-commerce Store preview" loading="lazy">
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">E-commerce Store</h3>
+                <p class="project__desc">A simple, responsive store with cart and checkout interactions.</p>
+                <div class="project__links">
+                  <a class="btn btn--sm" target="_blank" rel="noopener"
+                    href="https://haseebjaved4212.github.io/E-Commerce-Store/">See It In Action </a>
+                  <a class="btn btn--sm btn--ghost" target="_blank" rel="noopener"
+                    href="https://github.com/haseebjaved4212/E-Commerce-Store.git"> Inspect Code</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project">
+              <div class="project__media">
+                <img src="./Assets/Music-player.png" alt="Dynamic Music Player preview" loading="lazy">
+              </div>
+              <div class="project__content">
+                <h3 class="project__title">Dynamic Music Player</h3>
+                <p class="project__desc">An interactive music player with dynamic UI updates and animations.</p>
+                <div class="project__links">
+                  <a class="btn btn--sm" target="_blank" rel="noopener"
+                    href="https://haseebjaved4212.github.io/Dynamic-Music-Player/">See It In Action </a>
+                  <a class="btn btn--sm btn--ghost" target="_blank" rel="noopener"
+                    href="https://github.com/haseebjaved4212/Dynamic-Music-Player.git"> Inspect Code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="projects__cta">
+            <a class="btn btn--primary" target="_blank" rel="noopener" href="https://github.com/haseebjaved4212">Explore
+              more projects</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact" aria-label="Contact">
+        <div class="container">
+          <h2 class="section__title">Contact</h2>
+          <div class="contact__grid">
+            <form id="contact-form" class="contact__form" autocomplete="on">
+              <div class="field">
+                <label for="name">Full Name</label>
+                <input id="name" name="name" type="text" required placeholder="Your name" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required placeholder="name@example.com" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Write your message..."></textarea>
+              </div>
+              <div class="actions">
+                <button class="btn btn--primary" type="submit">Send Message</button>
+              </div>
+            </form>
+
+            <aside class="contact__info">
+              <h3>Find me online</h3>
+              <p class="contact__desc">Reach out for collaborations, freelance work, or just to say hi.</p>
+              <ul class="social" role="list">
+                <li><a target="_blank" rel="noopener" href="https://github.com/haseebjaved4212"><span class="icon"
+                      aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.34-1.75-1.34-1.75-1.09-.74.08-.72.08-.72 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.8 1.3 3.48.99.11-.78.42-1.3.76-1.6-2.67-.3-5.48-1.34-5.48-5.95 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.62-2.81 5.64-5.49 5.94.43.37.82 1.1.82 2.22v3.29c0 .32.22.69.83.58A12 12 0 0 0 12 .5Z" />
+                      </svg></span>GitHub</a></li>
+                <li><a target="_blank" rel="noopener"
+                    href="https://www.instagram.com/haseeb_javed4212?igsh=MTV0cWI2aHh2dDRmbw=="><span class="icon"
+                      aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm11 2a1 1 0 1 1 0 2 1 1 0 0 1 0-2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" />
+                      </svg></span>Instagram</a></li>
+                <li><a target="_blank" rel="noopener" href="https://www.facebook.com/share/1BU3pcCN8W/"><span
+                      class="icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M13 10h3l-1 4h-2v8h-4v-8H7v-4h3V7.5C10 5 11.5 3 15 3c1 0 2 .1 2 .1V6h-1.7C14.8 6 14 6.8 14 7.7V10Z" />
+                      </svg></span>Facebook</a></li>
+                <li><a target="_blank" rel="noopener"
+                    href="https://x.com/Haseebjaved4212?t=Be1nJmdR3ipCsHK3dylBTA&s=09"><span class="icon"
+                      aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.7 10.7 21.9 3h-1.7l-6.1 6.6L9 3H3l7.6 11-7.6 8h1.7l6.5-7 5.4 7h6l-7.9-11Z" />
+                      </svg></span>X (Twitter)</a></li>
+                <li><a target="_blank" rel="noopener"
+                    href="https://www.linkedin.com/in/haseeb-javed-0332b3341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><span
+                      class="icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M6.94 8.5H3.75v11.75h3.19V8.5ZM5.34 3.75a1.85 1.85 0 1 0 0 3.7 1.85 1.85 0 0 0 0-3.7Zm4.8 5.75v11.75h3.19v-6.3c0-1.66.31-3.27 2.38-3.27 2.03 0 2.06 1.9 2.06 3.38v6.19h3.19V14.2c0-3.15-.68-5.58-4.38-5.58-1.78 0-2.97.97-3.45 1.89h-.05V9.5h-3.19Z" />
+                      </svg></span>LinkedIn</a></li>
+              </ul>
+              <div class="contact__cards">
+                <div class="contact__card">
+                  <span class="icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24"
+                      fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm3-.5a.5.5 0 0 0-.5.5v.2l6.7 4.3 6.8-4.3V6a.5.5 0 0 0-.5-.5H6Zm13 4.1-6.1 3.86a1 1 0 0 1-1.08 0L5 9.6V18a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-8.4Z" />
+                    </svg></span>
+                  <div class="contact__card__body">
+                    <span class="label">Email</span>
+                    <a lass="mail" href="mailto:contactimhaseeb@gmail.com">contactimhaseeb@gmail.com</a>
+                  </div>
+                </div>
+                <div class="contact__card">
+                  <span class="icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24"
+                      fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.36 2.33.56 3.58.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.52 21 3 13.48 3 4a1 1 0 0 1 1-1h3.52a1 1 0 0 1 1 1c0 1.25.2 2.46.56 3.58a1 1 0 0 1-.24 1.02L6.6 10.8Z" />
+                    </svg></span>
+                  <div class="contact__card__body">
+                    <span class="label">Phone</span>
+                    <a href="tel:+923272119600">+92 327 2119600</a>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__grid">
+        <p>© <span id="year"></span> Haseeb Javed. All rights reserved.</p>
+        <a class="to-top" href="#hero" aria-label="Back to top">↑ Top</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" role="status" aria-live="polite" aria-atomic="true" class="toast" hidden>
+    <div class="toast__content">This function isn't available yet.</div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
