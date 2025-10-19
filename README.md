@@ -163,15 +163,7 @@ To add a new project, update the projects section in index.html:
 - Responsive Images for different screen sizes
 - Minimal JavaScript bundle for fast loading
 
-## 📞 Contact & Social Media
 
-- Email: contactimhaseeb@gmail.com
-- Phone: +92 327 2119600
-- GitHub: haseebjaved4212
-- LinkedIn: Haseeb Javed
-- Instagram: @haseeb_javed4212
-- Twitter: @Haseebjaved4212
-- Facebook: Haseeb Javed
 ## License
 
 - This project is open source and available under the MIT License.
